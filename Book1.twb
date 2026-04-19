@@ -3066,6 +3066,7 @@
               <breakdown value='auto' />
             </view>
             <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
             <encodings>
               <color column='[federated.1x4c83l05g00lg1c7wojk08y5su1].[none:zipcode:ok]' />
               <text column='[federated.1x4c83l05g00lg1c7wojk08y5su1].[none:zipcode:ok]' />
@@ -3076,6 +3077,7 @@
               <style-rule element='mark'>
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.1974033117294312' />
               </style-rule>
             </style>
           </pane>
