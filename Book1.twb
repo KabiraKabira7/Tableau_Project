@@ -3137,6 +3137,13 @@
       <simple-id uuid='{362321AE-18CF-4856-AA63-B50432C0FC11}' />
     </worksheet>
     <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Average Price By No.of Bedrooms</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
