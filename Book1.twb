@@ -3193,6 +3193,13 @@
       <simple-id uuid='{BAB6580E-6E7C-4993-A3E1-4BC702300466}' />
     </worksheet>
     <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Disntinct Count Of Bedrooms</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
