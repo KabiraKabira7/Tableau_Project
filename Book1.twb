@@ -3038,6 +3038,15 @@
             <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
             <column aggregation='Sum' caption='Zipcode' datatype='integer' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.1x4c83l05g00lg1c7wojk08y5su1].[none:zipcode:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:zipcode:ok]' />
+              <groupfilter function='member' level='[none:zipcode:ok]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1x4c83l05g00lg1c7wojk08y5su1].[none:zipcode:ok]</column>
+          </slices>
           <aggregation value='true' />
         </view>
         <style>
